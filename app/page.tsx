@@ -1,11 +1,12 @@
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
+import Footer from "@/components/Footer";
+
 
 const Home = () => {
   return (
     <main>
       <Hero />
-      <Grid />
+      <Footer />
     </main>
   );
 };
