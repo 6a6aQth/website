@@ -12,7 +12,7 @@ const Home = () => {
       <Footer />
       <Approach />
       <Experience />
-      <RecentProject />
+      <RecentProjects />
     </main>
   );
 };
