@@ -1,7 +1,11 @@
-export default function Home() {
+import Hero from "@/components/Hero";
+
+const Home = () => {
   return (
-    <div>
-      <h1>Testing Vercel Build</h1>
-    </div>
+    <main>
+      <Hero />
+    </main>
   );
-}
+};
+
+export default Home;
